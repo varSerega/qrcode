@@ -6,10 +6,8 @@ export const Navigation = ()=>{
         <nav className={s.container}>
             <Link to="/generate">Генерировать Qr-код</Link>
             <Link to="/scan">Сканировать Qr-код</Link>
-            <Link to='/'> История генерирования</Link>
-            <Link to='/'> История сканирования</Link>
-            <Link to='/generatehistory'> Полная история</Link>
-            <Link to='/scanhistory'> Полная история сканирования</Link>
+            <Link to='/generatehistory'> История генерирования</Link>
+            <Link to='/scanhistory'> История сканирования</Link>
             
         </nav>
     )
